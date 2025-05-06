@@ -20,9 +20,9 @@ animales[3] = "oso"
 print(animales)
 
 #ejercicio 5
-numeros = [8, 15, 3, 22, 7]
-numeros.remove(max(numeros)) #con la funcion max, se elimino el numero mas alto de la lista, que en este caso es el numero 22
-print(numeros)
+numeros = [8, 15, 3, 22, 7] #se creo una lista llamada numeros
+numeros.remove(max(numeros)) #la funcion max(numero) devuelve el numero mas alto de la lista, y con la funcion remove se lo elimina
+print(numeros) #eliminando el numero mas alto, imprime por pantalla el [8, 15, 3 ,7]
 
 #ejerciocio 6
 numeros = list(range(10, 31, 5))
