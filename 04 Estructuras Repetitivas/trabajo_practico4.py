@@ -103,7 +103,5 @@ print(f"\nLa media de los {cantidad_numeros} números ingresados es: {media}")
 
 #ejercico 10
 numero = int(input("Ingresá un número entero: "))
-# Invertir los dígitos
 invertido = int(str(numero)[::-1])
-# Mostrar el resultado
 print(f"El número invertido es: {invertido}")
